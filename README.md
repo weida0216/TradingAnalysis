@@ -36,7 +36,8 @@ Python program that correctly recalculates for each historical trade in sequence
 ten-column CSV file with the last set of values, current as per the last recorded trade, for every 
 security traded by every trader on your team. 
 
-The script can be located here: https://github.com/weida0216/TradingAnalysis/blob/main/WebScraping.ipynb
+The script can be located here: https://github.com/weida0216/TradingAnalysis/blob/main/CostBasisScript.ipynb
+
 ## Market Value and unrealised gains and losses
 
 To calculate the market value of open positions, we use the following formulae: 
