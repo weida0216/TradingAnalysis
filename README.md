@@ -4,6 +4,12 @@ Hollywood Stock Exchange (HSX) is the world's leading entertainment stock market
 visitors buy and sell virtual shares of celebrities and movies with a currency called the Hollywood Dollar®. 
 My team and I were tasked to trade on HSX for a course of 2 months and evaluate our trading performance as part of an assignment in class. 
 
+We then created an interactive dashboard with tableau summarising the performance of our team, based on all the data that we cleaned up below. 
+
+The snapshot of the dashboard can be found here: https://github.com/weida0216/TradingAnalysis/blob/main/DashboardSnapShot.png
+
+The actual dashboard can be found here: https://public.tableau.com/app/profile/wei.da1600/viz/Assg3_dashboard/PortfolioPerformance
+
 ## Specifications
 Your manager would like you to develop a single, interactive, dashboard to assess your performance 
 as individual traders on the HSX, as well as monitor the overall investment portfolio. 
