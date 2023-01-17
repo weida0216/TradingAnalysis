@@ -31,6 +31,12 @@ If we fully close out a position, all gains or losses are fully realised (same c
 If we later reopen the position, we restart all cost calculations the same as if it were the first trade for 
 that security. 
 
+To correctly determine the cost base and any realised gains/losses, I wrote a 
+Python program that correctly recalculates for each historical trade in sequence, outputting a 
+ten-column CSV file with the last set of values, current as per the last recorded trade, for every 
+security traded by every trader on your team. 
+
+The script can be located here: https://github.com/weida0216/TradingAnalysis/blob/main/WebScraping.ipynb
 ## Market Value and unrealised gains and losses
 
 To calculate the market value of open positions, we use the following formulae: 
@@ -40,4 +46,13 @@ Where Q is the current quantity of securities held, and PM is the latest price f
 The unrealised gain or loss for an open position, is the current market value of that position less the 
 full cost of any remaining securities held. Note that these calculations require cost basis information, 
 as well as latest prices from the HSX web site. 
+
+## Web Scraping for latest price of securities
+
+I wrote a second Python program that scrapes the latest prices from the HSX 
+website for each security with a remaining open position (or all active securities), outputting a 
+two-column CSV file with security symbol and current price for each security. 
+
+The script can be located here: 
+https://github.com/weida0216/TradingAnalysis/blob/main/WebScraping.ipynb
 
